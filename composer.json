@@ -1,0 +1,22 @@
+{
+    "name": "awonwon/booclock",
+    "description": "a package to show a clock view with mario's boo",
+    "require": {
+    },
+    "authors": [
+        {
+            "name": "awonwon",
+            "email": "awonwon.w2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Awonwon\\Booclock\\": "src/"
+        }
+    }
+}
