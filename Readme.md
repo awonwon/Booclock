@@ -9,7 +9,14 @@ Install laravel package.
 composer require awonwon/booclock
 ```
 
-
+regist ClockServiceProvider in your config/app.php
+```
+'providers' =>[
+    ...
+    Awonwon\Booclock\ClockServiceProvider::class,
+    ...
+],
+```
 
 Run this artisan command after you composer install.
 ```
