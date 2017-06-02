@@ -9,7 +9,7 @@ Install laravel package.
 composer require awonwon/booclock
 ```
 
-<\br>
+
 
 Run this artisan command after you composer install.
 ```
@@ -17,13 +17,13 @@ php artisan vendor:publish --tag=public --force
 ```
 It's make a boo image in `public/vendor/booclock` folder
 
-<\br>
+
 
 
 Browse `http://localhost:8000/boo`, and you'll see the boo clock's page.
 
 
-<\br>
+
 
 If you want to custom your boo's page, please run this command instead of the vendor command before
 ```
